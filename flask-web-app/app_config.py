@@ -28,7 +28,7 @@ CLIENT_ID = os.getenv("CLIENT_ID")
 # Application's generated client secret: never check this into source control!
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
-REDIRECT_PATH = "/getAToken"  # Used for forming an absolute URL to your redirect URI.
+REDIRECT_PATH = "/callback"  # Used for forming an absolute URL to your redirect URI.
 # The absolute URL must match the redirect URI you set
 # in the app's registration in the Azure portal.
 
